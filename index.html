@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <table>
+    <tr>
+        <th class="event-booking">
+            <img src="icon.png" alt="Event Icon" class="icon">
+            <div>
+            <b>EVENT BOOKING</b></th>
+            </div>
+        <th>Features</th>
+        <th>Industry</th>
+        <th>Enterprise</th>
+        <th>Explore events</th>
+        <th>Pricing</th>
+        <th>Help</th>
+        <th class="c1">Greetings!Sign In</button></th>
+        <th class="c2">  <button onclick="showalert()">Create Event</button></th>
+    </tr>
+    </table>
+    <h1 id="one">EVENT TICKETING MADE SIMPLE</h1>
+    <h3>Start selling ticket in 2 minutes</h3>
+    <h2><button onclick="show()">CREATE EVENT</button></h2>
+    <div class="popupbox">
+        <h4>ORGANISE THE EVENT</h4>
+        <input id="mail" placeholder="Enter mail">
+        <br></br>
+        <input id="phone" placeholder="Enter Phone">
+        <br></br>
+        <button onclick="dis()">publish</button>
+        <p id="result"></p>
+
+    </div>
+    <div class="popup"></div>
+
+    <div class="overlay"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>

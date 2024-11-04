@@ -1,0 +1,89 @@
+th {
+    padding: 0px 15px; 
+    color:white;
+}
+th.event-booking {
+    padding-left: 15px; 
+}
+.icon{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+body {
+    background-image: url('back.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
+.c1{
+    text-align:right;
+    position: absolute;
+    right:30%;
+    padding: 25px 15px; 
+}
+.c2{
+    text-align:right;
+    position: absolute;
+    right:20%;
+    padding: 25px 30px; 
+    background-color: green;
+    border-radius: 45%;
+    color:white
+}
+h1 { 
+    text-align: center; 
+    margin: 150px 0 10px 0; /* Set bottom margin to 10px for spacing */
+    color: black; /* Ensuring visibility against the background */
+}
+
+h3 { 
+    text-align: center; /* Center the text */
+    margin: 5px 0; /* Add a small margin for spacing below h1 */
+    color: black; /* Set color for visibility */
+}
+
+h2{
+    text-align:centre;
+    margin: 20px 670PX;
+    color:white
+    
+}
+.icon {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 50px;
+    height: 40px;
+}
+button{
+    background-color: green;
+    border-color: green;
+    border-style: solid;
+    
+}
+
+.popupbox{
+    position:absolute;
+    z-index:3;
+    background-color: white;
+    color:black;
+    width: 200px;
+    padding: 100px;
+    border-radius: 10px;
+    left:30%;
+    top:20%;
+    display:none;
+}
+.popup{
+    position:absolute;
+    z-index:3;
+    background-color: white;
+    color:black;
+    width: 200px;
+    padding: 100px;
+    border-radius: 10px;
+    left:30%;
+    top:5%;
+    display:none;
+}
